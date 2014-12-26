@@ -6,6 +6,8 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<!-- use if in need of style scoped on a controller -->
+<!--<body id="<%#= params[:controller].parameterize %>_controller">-->
 <body>
   <div class="container">
     <% if user_signed_in? %>
