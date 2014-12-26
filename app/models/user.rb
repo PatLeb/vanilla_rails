@@ -6,5 +6,4 @@ class User < ActiveRecord::Base
 
   ROLES = %w{admin guest}
 
-  # devise/lib/devise/parameter_sanitizer.rb, line 88 : need to add 'role' for strong parameters
 end
