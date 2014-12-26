@@ -45,3 +45,6 @@ group :development, :test do
 end
 
 gem 'devise', github: 'plataformatec/devise', branch: 'master'
+
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'autoprefixer-rails'
