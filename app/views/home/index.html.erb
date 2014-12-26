@@ -1,1 +1,5 @@
-Hello
+<% if can? :read, self %>
+  Hello
+<% else %>
+  Denied!
+<% end %>
