@@ -19,4 +19,11 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.for(:sign_up) << :role
   end
 
+  private
+
+  def twitter_user
+    @current_user ||= TwitterUser.find(session[:twitter_id]) if session[:twitter_id]
+  end
+  helper_method :twitter_user
+
 end
