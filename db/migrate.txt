@@ -1,0 +1,9 @@
+rails g model Depot name
+rails g model Stock quantity:integer 'price:decimal{10,2}' currency depot:references product:references sold:boolean
+
+rails g model Customer email first_name last_name
+rails g model Product name 'price:decimal{10,2}'
+rails g model Cart customer:references
+rails g model Item quantity:integer product:references cart:references
+rails g controller Carts new create show edit
+rails g controller Products new create update edit destroy index show

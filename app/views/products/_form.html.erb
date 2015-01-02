@@ -1,0 +1,7 @@
+<br/>
+<%= simple_form_for(@product, html: { class: 'form-inline' }) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :price, :as => :decimal, input_html: { min: '0', step: 'any' } %>
+  <%= f.button :submit %>
+<% end %>
+<%= link_to('Products', products_path) %>

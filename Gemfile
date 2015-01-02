@@ -53,3 +53,6 @@ gem 'cancancan', '~> 1.9'
 
 gem 'omniauth-twitter'
 gem 'twitter'
+
+gem 'simple_form'
+gem 'responders'
