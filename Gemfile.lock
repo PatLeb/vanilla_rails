@@ -69,6 +69,8 @@ GEM
       execjs
     coffee-script-source (1.8.0)
     debug_inspector (0.0.2)
+    email_validator (1.5.0)
+      activemodel
     equalizer (0.0.9)
     erubis (2.7.0)
     execjs (2.2.2)
@@ -219,6 +221,7 @@ DEPENDENCIES
   cancancan (~> 1.9)
   coffee-rails (~> 4.1.0)
   devise!
+  email_validator
   jbuilder (~> 2.0)
   jquery-rails
   letter_opener
