@@ -15,7 +15,7 @@ RSpec.describe "Products", :type => :request do
 
   describe "POST /products" do
 
-    it "adds a product to the list" do
+    it "adds a product to the list", js: true do
       visit products_path
       click_link 'new_product_link'
       within('form#new_product') do

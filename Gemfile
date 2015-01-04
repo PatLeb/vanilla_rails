@@ -48,6 +48,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'faker'
   gem 'capybara'
+  gem 'poltergeist'
 end
 
 gem 'devise', github: 'plataformatec/devise', branch: 'master'
