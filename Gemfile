@@ -42,6 +42,12 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'letter_opener'
   gem 'letter_opener_web', '~> 1.2.0'
+
+  gem 'rspec-rails', '~> 3.0'
+  gem 'factory_girl_rails', '~> 4.0'
+  gem 'database_cleaner'
+  gem 'faker'
+  gem 'capybara'
 end
 
 gem 'devise', github: 'plataformatec/devise', branch: 'master'
