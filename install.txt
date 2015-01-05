@@ -1,0 +1,16 @@
+Devise
+rails g devise:install
+rails g devise:views
+rails g devise User
+rails g controller Home index
+
+Bootstrap (quick tips)
+rails console: y Rails.application.config.assets.paths
+localhost:3000/?debug_assets=1
+rails s -e production
+rake assets:precompile
+localhost:3000/assets/application.css
+
+CanCanCan
+rails g cancan:ability
+
