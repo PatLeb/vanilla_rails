@@ -18,3 +18,5 @@
 
 # Secrets
 /config/secrets.yml
+
+/.vagrant
